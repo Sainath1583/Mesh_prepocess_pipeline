@@ -1,0 +1,557 @@
+{
+  "generated": "20251108_173405",
+  "results": {
+    "branch": {
+      "input_path": "outputs\\8samples\\branch.obj",
+      "n_vertices": 977,
+      "original_stats": {
+        "n_vertices": 977,
+        "min": [
+          -0.851562,
+          0.0,
+          -0.464844
+        ],
+        "max": [
+          0.849609,
+          1.900391,
+          0.462891
+        ],
+        "mean": [
+          0.06502485568065508,
+          1.0912832323439123,
+          0.11570215148413523
+        ],
+        "std": [
+          0.3474391293373574,
+          0.46715492836599865,
+          0.20309079782449607
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\branch_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 7.825607101132699e-07,
+          "mae": 0.0007341886574664926,
+          "mse_per_axis": [
+            9.066502448733277e-07,
+            1.168880082988669e-06,
+            2.721518024778128e-07
+          ],
+          "mae_per_axis": [
+            0.0008230846867993714,
+            0.000929116457606104,
+            0.0004503648279940024
+          ]
+        },
+        "plot": "outputs\\plots\\branch_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\branch_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 2.1850017329704657e-06,
+          "mae": 0.0012725420034993635,
+          "mse_per_axis": [
+            2.084595565154163e-06,
+            2.198849625348727e-06,
+            2.2715600084085064e-06
+          ],
+          "mae_per_axis": [
+            0.0012439756449509108,
+            0.0012734347022024604,
+            0.0013002156633447187
+          ]
+        },
+        "plot": "outputs\\plots\\branch_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "cylinder": {
+      "input_path": "outputs\\8samples\\cylinder.obj",
+      "n_vertices": 64,
+      "original_stats": {
+        "n_vertices": 64,
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": [
+          2.3418766925686896e-17,
+          0.0,
+          -3.469446951953614e-17
+        ],
+        "std": [
+          0.7071068300178377,
+          1.0,
+          0.7071068300178377
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\cylinder_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 7.966258421033583e-07,
+          "mae": 0.0006109481915933477,
+          "mse_per_axis": [
+            1.1949387631550374e-06,
+            0.0,
+            1.1949387631550376e-06
+          ],
+          "mae_per_axis": [
+            0.0009164222873900216,
+            0.0,
+            0.0009164222873900216
+          ]
+        },
+        "plot": "outputs\\plots\\cylinder_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\cylinder_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 2.573563600076552e-06,
+          "mae": 0.001382418163427706,
+          "mse_per_axis": [
+            2.525702349479503e-06,
+            2.6692861012706028e-06,
+            2.525702349479551e-06
+          ],
+          "mae_per_axis": [
+            0.0013824181634276944,
+            0.0013824181634277122,
+            0.0013824181634277115
+          ]
+        },
+        "plot": "outputs\\plots\\cylinder_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "explosive": {
+      "input_path": "outputs\\8samples\\explosive.obj",
+      "n_vertices": 1293,
+      "original_stats": {
+        "n_vertices": 1293,
+        "min": [
+          -0.199625,
+          -0.0,
+          -0.197126
+        ],
+        "max": [
+          0.199625,
+          1.0,
+          0.197126
+        ],
+        "mean": [
+          0.04264822273781913,
+          0.5208888917246713,
+          -9.094354215003811e-06
+        ],
+        "std": [
+          0.11742442416544392,
+          0.387970144780312,
+          0.0926960832965787
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\explosive_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 1.2386690987247204e-07,
+          "mae": 0.00027616707680048867,
+          "mse_per_axis": [
+            5.3447796751325164e-08,
+            2.6996848414904496e-07,
+            4.8184448717046014e-08
+          ],
+          "mae_per_axis": [
+            0.00019878874139191572,
+            0.0004377672019952579,
+            0.00019194528701429238
+          ]
+        },
+        "plot": "outputs\\plots\\explosive_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\explosive_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 3.6826214320241915e-07,
+          "mae": 0.0005236527741098595,
+          "mse_per_axis": [
+            3.4977973844154933e-07,
+            3.8506545419344297e-07,
+            3.6994123697226505e-07
+          ],
+          "mae_per_axis": [
+            0.0005086483966281417,
+            0.0005422036408144652,
+            0.0005201062848869719
+          ]
+        },
+        "plot": "outputs\\plots\\explosive_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "fence": {
+      "input_path": "outputs\\8samples\\fence.obj",
+      "n_vertices": 318,
+      "original_stats": {
+        "n_vertices": 318,
+        "min": [
+          -0.5,
+          0.0,
+          -0.0225
+        ],
+        "max": [
+          0.5,
+          0.84317,
+          0.0225
+        ],
+        "mean": [
+          -0.005803716981131987,
+          0.39659240880503194,
+          0.0
+        ],
+        "std": [
+          0.3500769416289038,
+          0.2515873273125019,
+          0.010706196407194965
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\fence_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 1.5631266669070088e-07,
+          "mae": 0.00027230284381653746,
+          "mse_per_axis": [
+            2.5921694022658823e-07,
+            2.09638914982704e-07,
+            8.21448628103778e-11
+          ],
+          "mae_per_axis": [
+            0.0004210381784983145,
+            0.00039213549985551944,
+            3.734853095778371e-06
+          ]
+        },
+        "plot": "outputs\\plots\\fence_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\fence_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 4.803200178508899e-07,
+          "mae": 0.0006082733246816322,
+          "mse_per_axis": [
+            3.442404999018349e-07,
+            6.199547312043243e-07,
+            4.767648224465103e-07
+          ],
+          "mae_per_axis": [
+            0.0004883854287382201,
+            0.0007344711098850338,
+            0.0006019634354216427
+          ]
+        },
+        "plot": "outputs\\plots\\fence_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "girl": {
+      "input_path": "outputs\\8samples\\girl.obj",
+      "n_vertices": 4488,
+      "original_stats": {
+        "n_vertices": 4488,
+        "min": [
+          -0.5,
+          0.0,
+          -0.181411
+        ],
+        "max": [
+          0.5,
+          0.904419,
+          0.181411
+        ],
+        "mean": [
+          0.002644200311942898,
+          0.4294982283868098,
+          0.01746761029411767
+        ],
+        "std": [
+          0.1671270845056467,
+          0.22321575530216234,
+          0.06566085646338478
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\girl_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 2.0613048782070007e-07,
+          "mae": 0.00036974312514484665,
+          "mse_per_axis": [
+            3.17334351973688e-07,
+            2.593762863266633e-07,
+            4.1680825161748996e-08
+          ],
+          "mae_per_axis": [
+            0.0004905262590106701,
+            0.0004421828910983341,
+            0.00017652022532553573
+          ]
+        },
+        "plot": "outputs\\plots\\girl_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\girl_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 3.783318942831031e-07,
+          "mae": 0.0005340589216011449,
+          "mse_per_axis": [
+            4.041872001183534e-07,
+            3.6710744284529234e-07,
+            3.6370103988566365e-07
+          ],
+          "mae_per_axis": [
+            0.0005543009080525316,
+            0.0005267623916009468,
+            0.0005211134651499562
+          ]
+        },
+        "plot": "outputs\\plots\\girl_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "person": {
+      "input_path": "outputs\\8samples\\person.obj",
+      "n_vertices": 1142,
+      "original_stats": {
+        "n_vertices": 1142,
+        "min": [
+          -0.84375,
+          -0.0,
+          -0.212891
+        ],
+        "max": [
+          0.841797,
+          1.900391,
+          0.210938
+        ],
+        "mean": [
+          -0.0019838887915936917,
+          1.1684853887915918,
+          -0.009341486865148869
+        ],
+        "std": [
+          0.3809627517728304,
+          0.5266655782105262,
+          0.10060075514432687
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\person_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 7.627647039488745e-07,
+          "mae": 0.0006777915257883518,
+          "mse_per_axis": [
+            9.175623124793508e-07,
+            1.308141594470648e-06,
+            6.259020489662453e-08
+          ],
+          "mae_per_axis": [
+            0.0008191665493987955,
+            0.0009967978593916457,
+            0.00021741016857461428
+          ]
+        },
+        "plot": "outputs\\plots\\person_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\person_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 1.6936732452099808e-06,
+          "mae": 0.0011178533794738933,
+          "mse_per_axis": [
+            1.7551880319528778e-06,
+            1.7637487593001856e-06,
+            1.562082944376879e-06
+          ],
+          "mae_per_axis": [
+            0.0011506109876629569,
+            0.0011485636371529743,
+            0.0010543855136057488
+          ]
+        },
+        "plot": "outputs\\plots\\person_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "table": {
+      "input_path": "outputs\\8samples\\table.obj",
+      "n_vertices": 2341,
+      "original_stats": {
+        "n_vertices": 2341,
+        "min": [
+          -0.208906,
+          0.0,
+          -0.5
+        ],
+        "max": [
+          0.208906,
+          0.611761,
+          0.5
+        ],
+        "mean": [
+          -0.0048377855617261455,
+          0.38833545664246283,
+          -0.003936188381033726
+        ],
+        "std": [
+          0.1479504357600781,
+          0.18426468792493758,
+          0.3313235700163484
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\table_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 1.4998956969640948e-07,
+          "mae": 0.00031044555920088884,
+          "mse_per_axis": [
+            4.328936282290053e-08,
+            1.0676620264131728e-07,
+            2.9991314362501064e-07
+          ],
+          "mae_per_axis": [
+            0.00016555763947782973,
+            0.0002793392969810535,
+            0.0004864397411437833
+          ]
+        },
+        "plot": "outputs\\plots\\table_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\table_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 4.956448001021428e-07,
+          "mae": 0.0006096355371089419,
+          "mse_per_axis": [
+            4.768428974680419e-07,
+            4.79941180304e-07,
+            5.301503225343867e-07
+          ],
+          "mae_per_axis": [
+            0.0005972511224142939,
+            0.0005870721514288042,
+            0.0006445833374837277
+          ]
+        },
+        "plot": "outputs\\plots\\table_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "talwar": {
+      "input_path": "outputs\\8samples\\talwar.obj",
+      "n_vertices": 984,
+      "original_stats": {
+        "n_vertices": 984,
+        "min": [
+          -0.031922,
+          0.0,
+          -0.117146
+        ],
+        "max": [
+          0.031922,
+          1.0,
+          0.117146
+        ],
+        "mean": [
+          0.021873203252032486,
+          0.32418794918699106,
+          -0.004872883130081303
+        ],
+        "std": [
+          0.010548393747186339,
+          0.24173539940108701,
+          0.04776824955771874
+        ]
+      },
+      "minmax": {
+        "recon_obj": "outputs\\reconstructed_objs\\talwar_recon_minmax_20251108_173405.obj",
+        "errors": {
+          "mse": 1.294744489261765e-07,
+          "mae": 0.000226889287246978,
+          "mse_per_axis": [
+            1.367390471853075e-09,
+            3.69782705402362e-07,
+            1.7273250904314433e-08
+          ],
+          "mae_per_axis": [
+            3.127069673922626e-05,
+            0.0005354128082556483,
+            0.0001139843567460595
+          ]
+        },
+        "plot": "outputs\\plots\\talwar_errors_minmax_20251108_173405.png"
+      },
+      "unitsphere": {
+        "recon_obj": "outputs\\reconstructed_objs\\talwar_recon_unitsphere_20251108_173405.obj",
+        "errors": {
+          "mse": 6.309614387231488e-07,
+          "mae": 0.0006957154207264155,
+          "mse_per_axis": [
+            6.238832458362029e-07,
+            6.247166048018367e-07,
+            6.442844655314068e-07
+          ],
+          "mae_per_axis": [
+            0.0006876257065316771,
+            0.0006903222779306191,
+            0.0007091982777169502
+          ]
+        },
+        "plot": "outputs\\plots\\talwar_errors_unitsphere_20251108_173405.png"
+      }
+    },
+    "._branch": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._branch.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._cylinder": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._cylinder.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._explosive": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._explosive.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._fence": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._fence.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._girl": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._girl.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._person": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._person.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._table": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._table.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    },
+    "._talwar": {
+      "input_path": "outputs\\__MACOSX\\8samples\\._talwar.obj",
+      "n_vertices": 0,
+      "original_stats": null,
+      "error": "No vertices found; file skipped"
+    }
+  }
+}
